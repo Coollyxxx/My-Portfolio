@@ -1,0 +1,166 @@
+body {
+    background-color: #209bae; /* Light gray color */
+}
+/*home*/
+#home {
+    text-align: center;
+    padding: 250px 0;
+}
+
+#home h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 48px;
+    color: #000000; /* Color of the heading */
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    color: #170505; /* Color of the paragraph */
+    margin-bottom: 30px;
+}
+
+#home .btn-primary {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Background color of the button */
+    border-color: #007bff; /* Border color of the button */
+    color: #fff; /* Text color of the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+#home .btn-primary:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+}
+
+.bold-effect {
+    font-weight: bold; /* Mag-bold ang text */
+    font-size: 2.5rem; /* Madako nga size sang text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Effect sang shadow */
+}
+
+/* About */
+h2 {
+    font-size: 2.5rem; /* Daku nga font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+/* Custom CSS for h2 tag */
+h2 {
+    margin-top: 70px; /* Adjust this value as needed */
+}
+/* Custom CSS for paragraph */
+p {
+    font-size: 18px; /* Adjust the font size as needed */
+    text-align: justify;
+}
+.profile-img {
+    width: 200px; /* I-adjust ang sukat sang larawan */
+    height: 200px; /* I-adjust ang sukat sang larawan */
+    object-fit: cover; /* I-maintain ang aspeto ratio kag i-crop ang larawan kon kinahanglan */
+    border-radius: 50%; /* Himuon ang larawan nga rounded */
+    border: 3px solid #fff; /* Dagdagi ang border kag himuon ini nga puti */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Maghatag sang shadow para sa 3D effect */
+    transition: transform 0.3s ease-in-out; /* Mag-apply sang transition effect kon mag-hover ang mouse */
+}
+
+.profile-img:hover {
+    transform: scale(1.1); /* Buhata ang larawan nga mas daku kon mag-hover ang mouse */
+}
+
+/*portfolio*/
+#portfolio h2 {
+    margin-bottom: 10px; /* Adjust the margin to push it slightly higher */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow to the card */
+    transition: transform 0.3s ease-in-out; /* Add transition effect */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Move the card slightly upward on hover */
+}
+
+/*contact*/
+.contact-form {
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 20px; /* Add some padding to the form */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.contact-form .form-control {
+    margin-bottom: 15px; /* Add some space between form elements */
+}
+
+.contact-form .btn-contact {
+    width: 100%; /* Make the button full width */
+}
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.5); /* Add transparency */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+
+.contact-info p {
+    margin-bottom: 10px; /* Add some space between paragraphs */
+}
+
+.contact-info a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.contact-info a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.5); /* Add transparency */
+    backdrop-filter: blur(10px); /* Add blur effect */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+footer {
+    text-align: center; /* I-center ang text sa footer */
+}
+
+footer p {
+    margin: 10px 0; /* Buruton ang margin sa ibabaw kag idalum */
+}
+
+footer a {
+    margin: 0 10px; /* Margin sa tags nga <a> sa footer */
+}
+
+footer a.btn-primary {
+    display: inline-block; /* I-display ang button bilang block element */
+}
+/* Add this CSS to your style.css */
+
+/* Add this CSS to your style.css */
+
+/* Add this CSS to your style.css */
+
+footer {
+    position: fixed; /* Set the position to fixed */
+    bottom: 0; /* Stick it to the bottom */
+    width: 100%; /* Make it take the full width */
+    background-color: #343a40; /* Background color of the footer */
+    color: #ffffff; /* Text color */
+    padding: 20px 0; /* Padding for top and bottom */
+    text-align: center !important; /* Align the text to the center */
+}
+
+
+
+.navbar {
+    backdrop-filter: blur(10px); /* Blur effect */
+    background-color: rgba(0, 0, 0, 0.5) !important; /* Transparent black background */
+}
